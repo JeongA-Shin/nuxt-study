@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <nav-bar />
+    <NavBar />
     <nuxt /> <!-- vue의 <router-view>역할-->
   </div>
 </template>
@@ -13,6 +13,7 @@ export default {
     NavBar
   }
 }
+
 </script>
 
 <style>
