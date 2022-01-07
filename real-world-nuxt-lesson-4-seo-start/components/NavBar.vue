@@ -1,24 +1,13 @@
 <template>
-<<<<<<< HEAD
   <div class="nav">
-=======
-  <div>
-    <!--nuxt-link는  vue에서의  route-link역할-->
->>>>>>> fa49388c4848592574f41dac4ced936411bae308
     <nuxt-link to="/" class="brand">
       Real World Events
     </nuxt-link>
     <nav>
       <nuxt-link to="/">
         List
-<<<<<<< HEAD
-      </nuxt-link> | 
+      </nuxt-link> |
       <nuxt-link to="/event/create">
-=======
-      </nuxt-link>
-      |
-      <nuxt-link to="/CreateVue">
->>>>>>> fa49388c4848592574f41dac4ced936411bae308
         Create
       </nuxt-link>
     </nav>

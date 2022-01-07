@@ -5,6 +5,7 @@ module.exports = {
     node: true
   },
   parserOptions: {
+<<<<<<< HEAD
     parser: 'babel-eslint'
   },
   extends: [
@@ -16,4 +17,21 @@ module.exports = {
   ],
   // add your custom rules here
   rules: {}
+=======
+    parser: '@babel/eslint-parser',
+    requireConfigFile: false
+  },
+  extends: [
+    '@nuxtjs',
+    'plugin:nuxt/recommended'
+  ],
+  plugins: [
+  ],
+  // add your custom rules here
+  rules: {
+    'vue/multi-word-component-names': ['error', {
+      ignores: ['default', 'index']
+    }]
+  }
+>>>>>>> fa49388c4848592574f41dac4ced936411bae308
 }

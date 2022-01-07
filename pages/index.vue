@@ -1,5 +1,6 @@
 <template>
   <div>
+<<<<<<< HEAD
     <h1>Events</h1>
 
     <!--events는 26 번 라인 참고-->
@@ -41,3 +42,8 @@ export default {
   }
 }
 </script>
+=======
+    <h1>Events</h1>  <!--제목-->
+  </div>
+</template>
+>>>>>>> fa49388c4848592574f41dac4ced936411bae308
