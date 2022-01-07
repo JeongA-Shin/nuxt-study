@@ -16,6 +16,8 @@
     "@nuxtjs/axios": "^5.3.6",
     "axios": "^0.24.0",
     "cross-env": "^5.2.0",
+    "heroku": "^7.59.2",
+    "json-server": "^0.17.0",
     "nuxt": "^2.3.4"
   },
   "devDependencies": {
