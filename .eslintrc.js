@@ -6,32 +6,31 @@ module.exports = {
   },
   parserOptions: {
 <<<<<<< HEAD
-    parser: 'babel-eslint'
+  parser: 'babel-eslint'
   },
-  extends: [
-    '@nuxtjs',
-    'plugin:prettier/recommended'
-  ],
+extends: [
+  '@nuxtjs',
+  'plugin:prettier/recommended'
+],
   plugins: [
-    'prettier'
-  ],
+  'prettier'
+],
   // add your custom rules here
   rules: {}
 =======
-    parser: '@babel/eslint-parser',
-    requireConfigFile: false
-  },
-  extends: [
-    '@nuxtjs',
-    'plugin:nuxt/recommended'
-  ],
+  parser: '@babel/eslint-parser',
+  requireConfigFile: false
+},
+extends: [
+  '@nuxtjs',
+  'plugin:nuxt/recommended'
+],
   plugins: [
-  ],
+],
   // add your custom rules here
   rules: {
-    'vue/multi-word-component-names': ['error', {
-      ignores: ['default', 'index']
-    }]
-  }
->>>>>>> fa49388c4848592574f41dac4ced936411bae308
+  'vue/multi-word-component-names': ['error', {
+    ignores: ['default', 'index']
+  }]
 }
+

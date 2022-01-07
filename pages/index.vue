@@ -22,20 +22,18 @@ export default {
     }
   },
   // 컴포넌트가 만들어지기 전 미리 api를 통해 필요한 데이터들을 받아옴
-  asyncData({ $axios, error }) {
-    return $axios
-      .get('http://localhost:3000/events')
-      .then(response => {
-        return {
-          events: response.data
-        }
+  async asyncData({ $axios, error }) {
+    try{
+      const {data}= await $axios.get('http://localhost:3000/events')
+    return {
+          events: data //구조분해할당
+      // }
+    }catch(e){
+      error({
+        statusCode:503,
+        message:'Unable to fectch events at this time, Please try again'
       })
-      .catch(e => {
-        error({
-          statusCode: 503,
-          message: 'Unable to fetch events at this time. Please try again.'
-        })
-      })
+    }
   },
   components: {
     EventCard
