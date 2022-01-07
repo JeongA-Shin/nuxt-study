@@ -1,18 +1,12 @@
 <template>
   <div id="app">
-<<<<<<< HEAD
     <nav-bar />
     <nuxt />
-=======
-    <NavBar />
-    <nuxt /> <!-- vue의 <router-view>역할-->
->>>>>>> fa49388c4848592574f41dac4ced936411bae308
   </div>
 </template>
 
 <script>
 import NavBar from '~/components/NavBar.vue'
-<<<<<<< HEAD
 export default {
   head() {
     return {
@@ -27,15 +21,10 @@ export default {
       ]
     }
   },
-=======
-
-export default {
->>>>>>> fa49388c4848592574f41dac4ced936411bae308
   components: {
     NavBar
   }
 }
-<<<<<<< HEAD
 </script>
 
 <style>
@@ -273,22 +262,5 @@ select::ms-expand {
 }
 .errorMessage {
   color: red;
-=======
-
-</script>
-
-<style>
-body{
-  display: flex;
-  justify-content: center;
-}
-#app{
-  width: 100vw;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
->>>>>>> fa49388c4848592574f41dac4ced936411bae308
 }
 </style>
